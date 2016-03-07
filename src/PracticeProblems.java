@@ -41,7 +41,7 @@ public class PracticeProblems {
   public static void insert(List<String> list, String val) {
     int index = 0;
     for (String s : list) {
-      if (s.compareTo(val) > 0) {
+      if (s.compareTo(val) >= 0) {
         list.add(index, val);
         break;
       }
