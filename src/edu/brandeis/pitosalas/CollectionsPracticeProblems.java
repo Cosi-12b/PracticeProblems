@@ -1,6 +1,8 @@
+package edu.brandeis.pitosalas;
+
 import java.util.*;
 
-public class PracticeProblems {
+public class CollectionsPracticeProblems {
   static List<String> myList = new LinkedList<String>();
   static private Map<String, String> myMap1 = new HashMap<String, String>();
   static private Map<String, String> myMap2 = new HashMap<String, String>();
